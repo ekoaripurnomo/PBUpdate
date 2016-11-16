@@ -12,9 +12,9 @@ public class PBUpdate {
 	
 	public static void main(String[] args) {
 		
-		//D:\github\PBUpdate
-		File folders = new File("sources");
-		File foldert = new File("targets");
+		
+		File folders = new File("sources"); //sources folder (contoh absolute path D:\\github\\PBUpdate\\sources)
+		File foldert = new File("targets"); //targets folder (contoh absolute path D:\\github\\PBUpdate\\targets)
 		File[] fileEntrys = folders.listFiles();
 		File[] fileEntryt = foldert.listFiles();
 		List lsts = new LinkedList();
