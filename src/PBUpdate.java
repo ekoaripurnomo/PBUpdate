@@ -11,8 +11,10 @@ import java.util.List;
 public class PBUpdate {
 	
 	public static void main(String[] args) {
-		File folders = new File("D:\\sources");
-		File foldert = new File("D:\\targets");
+		
+		//D:\github\PBUpdate
+		File folders = new File("sources");
+		File foldert = new File("targets");
 		File[] fileEntrys = folders.listFiles();
 		File[] fileEntryt = foldert.listFiles();
 		List lsts = new LinkedList();
